@@ -9,6 +9,11 @@ body{
 	font-family: 'Teko', sans-serif;
 }
 
+img {
+  width: 20%;
+  height: auto;
+}
+
 .center {
   display: block;
   margin-left: auto;
