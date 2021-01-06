@@ -7,3 +7,8 @@ h1{
 body{
 	font-family: 'Lobster', cursive;	
 }
+
+img {
+    max-width:80%;
+    height:auto;
+}
