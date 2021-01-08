@@ -27,7 +27,7 @@ img {
   width: 50%;
 }
 
-.row:after {
+.row {
   content: "body";
   display: table;
   clear: both;
