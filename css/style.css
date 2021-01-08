@@ -37,7 +37,7 @@ img {
 }
 
 #left {
-	height: 600px;
+	height: auto;
     width: 600px; 
     position: relative;
     border: 3px solid #000;
