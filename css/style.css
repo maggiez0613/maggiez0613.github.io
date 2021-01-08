@@ -14,8 +14,8 @@ h1{
 }
 
 img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 50%;
+  max-height: 50%;
   width: auto;
   height: auto;
   position: absolute;
@@ -28,22 +28,4 @@ img {
   image-rendering: auto;
 }
 
-#container {
-    display: table
-}
-
-#left, #right {
-    display: table-cell
-}
-
-#left {
-	height: 600px;
-    width: 600px; 
-    position: relative;
-    border: 3px solid #000;
-}
-
-#right {
-    border: 3px solid #000;
-}
 
