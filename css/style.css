@@ -14,7 +14,7 @@ h1{
 }
 
 img {
-  width: 35%;
+  width: 30%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -23,7 +23,6 @@ img {
 }
 
 .container {
-    background: #fce043;
     display: table
 }
 
@@ -32,7 +31,7 @@ img {
 }
 
 .left {
-    width: 50%;
+    width: 70%;
     padding: 50px;
 }
 
