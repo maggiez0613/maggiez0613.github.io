@@ -21,3 +21,14 @@ img {
   margin-right: auto;
   border: 20px solid #555;
 }
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "body";
+  display: table;
+  clear: both;
+}
