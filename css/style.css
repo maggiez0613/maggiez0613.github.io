@@ -31,12 +31,11 @@ img {
 }
 
 #left {
-    width: 50%;
-    float: left;
+    width: 150px;
+    border: 5px dotted blue;
 }
 
 #right {
-    width: 50%;
-    float: right;
+    border: 3px solid #000
 }
 
