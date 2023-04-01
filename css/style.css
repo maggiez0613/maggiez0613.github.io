@@ -108,8 +108,20 @@ a.active, a:hover{
 /*home, index.html*/
 
     /*1st flexbox*/
-    .flexbox1{
+
+    .flexbox1parent{
+        background-color: white;
+        color: gray;
+        padding: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .flexbox1child{
         background-color: red;
+        margin: auto;
+        width: 200px;
     }
 
     /*about us*/
