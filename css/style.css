@@ -106,6 +106,12 @@ a.active, a:hover{
 
 
 /*home, index.html*/
+
+    /*1st flexbox*/
+    .flexbox1{
+        background-color: red;
+    }
+
     /*about us*/
     .team{
         position: relative;
