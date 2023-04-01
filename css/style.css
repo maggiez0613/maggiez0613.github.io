@@ -1,53 +1,200 @@
-body{
-	background-color: #fce043;
-	background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
-	font-family: 'Teko', sans-serif;
-	font-size: 30px; 
-	text-align: center;
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
 }
 
-h1{
-	color: purple;
-	font-weight: 400;
-	font-size: 80px;
-	text-align: center;
+/*navbar*/
+
+nav{
+    background: #2d45ae;
+    height: 80px;
+    width: 100%;
 }
 
-img {
-  max-width: 25%;
-  max-height: auto;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  border: 20px solid #555;
-  image-rendering: auto;
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0  60px;
+    font-weight: bold;
 }
 
-#container {
-    display: table
+nav ul{
+    float: right;
+    margin-right: 20px;
 }
 
-#left, #right {
-    display: table-cell
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
 
-#left {
-	height: auto;
-    width: 600px; 
-    position: relative;
-    border: 3px solid #000;
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
 }
 
-#right {
-    border: 3px solid #000;
+a.active, a:hover{ 
+    background: #9bddff;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #9bddff;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.active{
+        background: none;
+        color: #2d45ae;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
 }
 
 
+/*home, index.html*/
+    /*about us*/
+    .team{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: radial-gradient(#281c3e,#0f051d);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .team-content{
+        width: 100%;
+        max-width: 1350px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .team-content img{
+        width: 100%;
+        height: 37rem;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    .center h1{
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .box{
+        padding: 16px;
+        background: #1b1229;
+        border-radius: 15px;
+        transition: all .35s ease;
+    }
+    .box h3 {
+        font-size: 23px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 8px;
+    }
+    .box h4 {
+        font-size: 19px;
+        font-weight: 600;
+        color: #b7b4bb;
+        margin-bottom: 8px;
+    }
+    .box h5 {
+        font-size: 15px;
+        font-weight: 600;
+        color: #b7b4bb;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+    }
+    .icons i{
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        margin: 0 8px;
+        transition: all .35s ease;
+    }
+    .icons i:hover{
+        transform: scale(2);
+    }
+    .box:hover{
+        transform: translateY(-10px);
+        cursor: pointer;
+    }
+    @media(max-width: 1240px){
+        .team{
+            width: 100%;
+            height: auto;
+            padding: 90px 2%;
+        }
+        .center h1{
+            font-size: 3rem;
+        }
+    }
+  
 
 
 
+/*foundations.html*/
+
+
+
+/*researchinternship.html*/
+
+
+/*resource.html*/

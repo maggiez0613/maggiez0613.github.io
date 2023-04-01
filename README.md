@@ -1,2 +1,2 @@
 # maggiez0613.github.io
-My personal website. 
+Project for Developing Accessible User Interfaces 
