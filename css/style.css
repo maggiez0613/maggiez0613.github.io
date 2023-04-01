@@ -110,10 +110,8 @@ a.active, a:hover{
     /*1st flexbox*/
     .flexbox1parent{
         background-color: white;
-        display: flex;
         flex-direction: row;
     }
-
 
     .flexbox1child{
         background-color: red;
@@ -122,13 +120,12 @@ a.active, a:hover{
     }
 
     .flexbox2parent{
-        background-color: red;
-        display: flex;
+        background-color: white;
         flex-direction: row;
     }
 
     .flexbox2child{
-        background-color: white;
+        background-color: yellow;
         margin: auto;
         width: 200px;
     }
