@@ -107,20 +107,6 @@ a.active, a:hover{
 
 /*home, index.html*/
 
-    /*1st flexbox*/
-    .flexbox1parent{
-        background-color: ghostwhite;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .flexbox2parent{
-        background-color: ghostwhite;
-        display: flex;
-        flex-direction: row;
-    }
-
-
     /*about us*/
     .team{
         position: relative;
@@ -208,28 +194,6 @@ a.active, a:hover{
 
 
 /*foundations.html*/
-.flexbox-container {
-    
-}
-
-.flexbox-item {
-    width: 200px;
-    margin: 10px;
-    border: 3px solid #333;
-    background-color: #dfdfdf;
-}
-
-.flexbox-item-1 {
-    min-height: 100px;
-}
-
-.flexbox-item-2 {
-    min-height: 200px;
-}
-
-.flexbox-item-3 {
-    min-height: 300px;
-}
 
 
 /*researchinternship.html*/
