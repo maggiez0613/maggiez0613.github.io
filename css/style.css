@@ -23,7 +23,7 @@ html{
 body{
     font-size: 100%;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 p{
@@ -96,9 +96,7 @@ nav{
     background: #2d45ae;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    z-index: 9999;
-}
+    justify-content: space-between;}
 
 label.logo{
     color: white;
