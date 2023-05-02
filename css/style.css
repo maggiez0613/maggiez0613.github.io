@@ -118,5 +118,16 @@ a.active, a:hover{
     }
 }
 
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
 
 /*home, index.html*/
