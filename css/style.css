@@ -7,6 +7,20 @@
     font-family: 'Teko', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+}
+
+div, section, span, ul, li, a, header {
+    box-sizing: border-box;
+}
+
+
+
 /*navbar*/
 
 nav{
