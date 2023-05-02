@@ -19,6 +19,62 @@ div, section, span, ul, li, a, header {
     box-sizing: border-box;
 }
 
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color:aquamarine;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+    background-color: blue;
+}
+
+#abareas{
+    background-color: blueviolet;
+}
+
+#abofferings{
+    background-color: burlywood;
+}
+
+#staff{
+    background-color: chocolate;
+}
+
+#contact{
+    background-color: cornflowerblue;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
 
 
 /*navbar*/
