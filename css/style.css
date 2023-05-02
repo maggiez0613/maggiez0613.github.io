@@ -22,6 +22,7 @@ html{
 body{
     font-size: 100%;
     text-align: center;
+    padding: 25px;
 }
 
 div, section, span, ul, li, a, header {
@@ -58,6 +59,7 @@ section{
 
 #whatisab{
     background-color: blue;
+    font-size: 50px;
 }
 
 #abareas{
@@ -74,14 +76,6 @@ section{
 
 #contact{
     background-color: cornflowerblue;
-}
-
-h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
 }
 
 
