@@ -15,10 +15,6 @@ img{
     height: 70%;
 }
 
-header{
-    padding-bottom: 80px;
-}
-
 html{
     scroll-behavior: smooth;
 }
@@ -26,7 +22,7 @@ html{
 body{
     font-size: 100%;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 p{
@@ -38,6 +34,9 @@ div, section, span, ul, li, a, header {
 
 header{
     width: 100%;
+    top: 0;
+    padding-bottom: 80px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
