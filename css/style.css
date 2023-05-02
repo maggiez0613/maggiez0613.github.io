@@ -49,6 +49,13 @@ header{
     font-size: 20px;
 }
 
+section{
+    width: 100%;
+    float: left;
+    height: auto;
+    position: relative;
+}
+
 #whatisab{
     background-color: blue;
 }
