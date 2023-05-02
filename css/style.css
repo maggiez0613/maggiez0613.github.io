@@ -104,5 +104,8 @@ a.active, a:hover{
     }
 }
 
+li {
+    list-style: circle;
+}
 
 /*home, index.html*/
