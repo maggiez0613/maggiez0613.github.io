@@ -187,7 +187,9 @@ ul {
 }
 
 li {
-    list-style: circle;
+    font-size: 14px;
+    margin-right: 10px;
+    list-style-type: circle;
 }
 
 .list {
