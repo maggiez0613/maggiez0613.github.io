@@ -1,5 +1,3 @@
-alert('test')
-
 $(document).ready(function () {
     window.onkeydown = function (event) {
         console.log(event.code);
