@@ -29,6 +29,9 @@ body{
     padding-top: 30px;
 }
 
+p{
+    font-size: 30px;
+}
 div, section, span, ul, li, a, header {
     box-sizing: border-box;
 }
@@ -39,7 +42,7 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 999;
+    z-index: 9999;
 }
 
 #menu li{
