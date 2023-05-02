@@ -22,7 +22,7 @@ html{
 body{
     font-size: 100%;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 div, section, span, ul, li, a, header {
@@ -91,6 +91,7 @@ nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: sticky; top: 0;
 }
 
 label.logo{
