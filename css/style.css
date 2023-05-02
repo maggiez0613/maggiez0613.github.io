@@ -20,7 +20,7 @@ html{
 }
 
 body{
-    font-size: 50px;
+    font-size: 100%;
     text-align: center;
     padding: 25px;
 }
@@ -64,18 +64,22 @@ section{
 
 #abareas{
     background-color: blueviolet;
+    font-size: 50px;
 }
 
 #abofferings{
     background-color: burlywood;
+    font-size: 50px;
 }
 
 #staff{
     background-color: chocolate;
+    font-size: 50px;
 }
 
 #contact{
     background-color: cornflowerblue;
+    font-size: 50px;
 }
 
 
