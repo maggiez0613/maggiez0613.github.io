@@ -35,8 +35,6 @@ div, section, span, ul, li, a, header {
 header{
     width: 100%;
     top: 0;
-    padding-bottom: 80px;
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
