@@ -15,6 +15,10 @@ img{
     height: 70%;
 }
 
+header{
+    padding-bottom: 80px;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -87,7 +91,6 @@ section{
 
 nav{
     background: #2d45ae;
-    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
